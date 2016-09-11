@@ -1,0 +1,34 @@
+{
+  "name": "highland-range",
+  "version": "0.0.1",
+  "description": "Filter a range from a highland stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szdavid92/highland-range.git"
+  },
+  "keywords": [
+    "highland",
+    "stream",
+    "repartition",
+    "split",
+    "merge",
+    "partition"
+  ],
+  "author": "David Szakallas <david.szakallas(at)gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "highland": ">=2.0.0"
+  }
+}
