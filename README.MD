@@ -48,8 +48,6 @@ lattice criteria (ordered) with respect to the predicates.
 
 You can work with arbitrary data types.
 
-```js
-
 ## Usage
 
 `range(start, end)`
