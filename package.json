@@ -1,6 +1,6 @@
 {
   "name": "highland-range",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Filter a range from a highland stream",
   "main": "index.js",
   "scripts": {

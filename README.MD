@@ -4,7 +4,7 @@
 
 
 Filter a range from a [highland](https://github.com/caolan/highland) stream.
-This is an optimized filter when you know that your stream is a lattice with respect to
+This is an optimized filter when you know that your stream is ordered with respect to
 the filter predicate, ie. your predicate will hold for all consecutive
 items after the first one it holds for.
 
@@ -43,8 +43,8 @@ _([0, 1, 2, 3, 4]).consume(range(undefined, function end (x) { return x < 4 }))
 
 ```
 
-Note that it is your responsibility to make sure that actual data satisfies the
-lattice criteria (ordered) with respect to the predicates.
+Note that it is your responsibility to make sure that actual data satisfies
+partial ordering with respect to the predicates.
 
 You can work with arbitrary data types.
 
