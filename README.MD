@@ -44,7 +44,7 @@ _([0, 1, 2, 3, 4]).consume(range(undefined, function end (x) { return x < 4 }))
 ```
 
 Note that it is your responsibility to make sure that actual data satisfies
-partial ordering with respect to the predicates.
+total ordering with respect to the predicates.
 
 You can work with arbitrary data types.
 
